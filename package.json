@@ -1,7 +1,7 @@
 {
   "name": "cool_chop",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -18,13 +18,21 @@
     "react": "18.2.0",
     "react-native": "0.74.3",
     "react-native-safe-area-context": "4.10.5",
-    "react-native-screens": "3.31.1"
+    "react-native-screens": "3.31.1",
+    "typescript": "~5.3.3",
+    "@types/react": "~18.2.79",
+    "expo-font": "~12.0.9",
+    "expo-splash-screen": "~0.27.5",
+    "@react-native-community/netinfo": "11.3.1",
+    "expo-asset": "~10.0.10"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "eslint": "^9.7.0",
     "husky": "^9.1.2",
     "lint-staged": "^15.2.7",
-    "prettier": "3.3.3"
+    "prettier": "^3.3.3",
+    "stylelint-config-prettier": "^9.0.5"
   },
   "private": true,
   "lint-staged": {
