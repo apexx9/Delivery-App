@@ -3,7 +3,7 @@
 import { View, Text } from 'react-native';
 import React, { useState, useEffect } from 'react';
 import SplashScreen from '../components/splashScreen/splashScreen';
-import HomeScreen from '../app/HomeScreen/homeScreen';
+import HomeScreen from './homeScreen';
 
 const Index = () => {
   const [isShowSplash, setIsShowSplash] = useState(true);

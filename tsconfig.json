@@ -1,4 +1,10 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "strict": true, // Enable strict type-checking options
+    "jsx": "react", // Enable JSX support for React
+    "esModuleInterop": true, // Ensure compatibility with ES6 modules
+    "moduleResolution": "node", // For resolving modules like react-native and expo-router
+    "allowSyntheticDefaultImports": true // Enable default imports for modules
+  },
   "extends": "expo/tsconfig.base"
 }

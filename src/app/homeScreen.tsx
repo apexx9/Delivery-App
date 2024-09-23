@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
-import Button from '../../components/shared/button';
+import Button from '../components/shared/button';
 
 const HomeScreen = () => {
   return (
